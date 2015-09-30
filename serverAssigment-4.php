@@ -1,5 +1,5 @@
 <?php 
-                $name = "Yohani Gonzalez  3 JavaScript Sample Code Assignment";
+                $name = "Yohani Gonzalez  3 PHP Sample Code Assignment";
                 
             // Output sample 
         
