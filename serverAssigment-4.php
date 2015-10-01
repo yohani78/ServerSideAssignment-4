@@ -6,8 +6,10 @@
 
     
     Boolean
-            
-            
+    
+            $response = false;
+            $response = true;
+            $this->cache[$key] = false;
             
     Integer
             
@@ -24,6 +26,8 @@
             $header = strtoupper($header);
                                                             }
             
+            $key = strtolower($key);
+            $_rules = array_change_key_case($this->getRules());
     Array
     
             array $headers = null,
@@ -38,7 +42,16 @@
             
             
     Object
-            
+            if (!$rules) {
+                            $rules = array_merge(
+                                                        self::$phoneDevices,
+                                                        self::$tabletDevices,
+                                                        self::$operatingSystems,
+                                                        self::$browsers,
+                                                        self::$utilities
+                                                                                    );
+                                }
+
             
             
     Null
