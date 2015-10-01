@@ -1,71 +1,36 @@
 <?php 
                 $name = "Yohani Gonzalez  3 PHP Sample Code Assignment";
                 
-            // Output sample 
-        
-                     
-                
-            // Statement sample 
-        
-                    
+// Types
 
-            // variable samples
-            
-                     
-        
-            // Operators:
-            
-                    
-                
-            // Arithmetic:
-            
-                    
-            
-            // Assignment
-            
-                    
-                    
-            // Data Types
-                    
-                    
-                    
-            // Functions
-                    
-                    
-                    
-            // Objects
-                    
-                   
-                    
-            // Strings
-                    
-                    
-                    
-            // String Methods
-                    
-                    
-                    
-            // Numbers
-                    
-                    
-                    
-            // Number Methods
-                    
-                    
-                    
-            // Arrays
-                    
-                    
-                    
-            // Array Methods
-                    
-                    
-                    
-            // Booleans
-                    
-                    
-                    
-            // Comparisons
+    /*
+    bool:
+    
+    
+    
+    
+    integer:
+    
+    
+    
+    
+    float:
+    
+    
+    
+    string
+    array
+    object
+    null
+    */
+
+// Operators
+
+    Arithmetic
+    Assignment
+    Comparison
+
+// User-Defined Functions
                     
                     
                     
