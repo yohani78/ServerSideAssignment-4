@@ -16,8 +16,9 @@
             
             
     Float
-            
-            
+            $version = ($type == self::VERSION_TYPE_FLOAT ? $this->prepareVersionNo($match[1]) : $match[1]);
+            $this->is('iOS') && $this->version('iPad', self::VERSION_TYPE_FLOAT) >= 4.3 
+            $this->version('Windows Phone OS', self::VERSION_TYPE_FLOAT) >= 7.5 
             
     String
             
