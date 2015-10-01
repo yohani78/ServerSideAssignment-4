@@ -1,34 +1,55 @@
 <?php 
                 $name = "Yohani Gonzalez  3 PHP Sample Code Assignment";
                 
-// Types
+//  Variable Types. $varriable
+ 
 
-    /*
-    bool:
     
+    Boolean
+            
+            
+            
+    Integer
+            
+            
+            
+    Float
+            
+            
+            
+    String
+            
+            
+            
+    Array
     
-    
-    
-    integer:
-    
-    
-    
-    
-    float:
-    
-    
-    
-    string
-    array
-    object
-    null
-    */
+            protected $cache = array();
+            
+            
+            
+    Object
+            
+            
+            
+    Null
+            
+            
+            
 
 // Operators
 
     Arithmetic
+            
+            
+            
     Assignment
+            
+            
+            
     Comparison
+            
+            
+            
 
 // User-Defined Functions
                     
