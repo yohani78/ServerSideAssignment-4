@@ -13,6 +13,8 @@
             
     Integer   // an integer $variable is a (number 1, -2, 21e5, 2100000 [but not a decimal 0.2]) value
             
+            return $this->matchUAAgainstKey($key);
+            I dont see any other sample
             
             
     Float   // a float $variable is a (Decimal number 1.0, -0.02, 21e-5, 0.00021 ) value
@@ -68,12 +70,16 @@
 -------------- Operators
 
     Arithmetic
-            
-            
+    
+            'WebKit' => '(webkit)[ /]([\w.]+)',
+            'IE' => array('IEMobile/[VER];', 'IEMobile [VER]', 'MSIE [VER];', 'Trident/[0-9.]+;.*rv:[VER]'),
+            const VER = '([\w._\+]+)';
             
     Assignment
             
-            
+            const DETECTION_TYPE_MOBILE = 'mobile';
+            const VER = '([\w._\+]+)';
+            const VERSION = '2.8.17';
             
     Comparison
     
@@ -83,7 +89,7 @@
 
 -------------- User-Defined Functions
             
-            
+            I dont see it
             
                     
                     
